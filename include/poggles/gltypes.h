@@ -33,8 +33,6 @@ public:
   {
   }
 
-  gltype(gltype<T> const& other) = default;
-
   T id() const { return m_id; }
   operator T() const { return m_id; }
   operator bool() const { return m_id != 0; }
